@@ -1,0 +1,31 @@
+﻿<Window x:Class="ExamGame2D.Windows.SettingsWindows.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        
+        Title="Настройки" 
+        Height="450" 
+        Width="800" 
+        WindowStartupLocation="CenterScreen">
+    
+    <Window.Resources>
+        <ResourceDictionary Source="SettingsWindowStyle.xaml" /> 
+    </Window.Resources>
+    
+    <Window.Background>
+        <ImageBrush ImageSource="/Assets/StartImage.jpg" 
+                    Stretch="UniformToFill"/> 
+    </Window.Background>
+
+    <Grid>
+        <TextBlock Text="Настройки" Style="{StaticResource HeaderTextStyle}"/>
+
+        <TextBlock Text="Управление" Style="{StaticResource SubHeaderTextStyle}"/>
+
+        <Button Content="Назад" 
+                Style="{StaticResource {x:Type Button}}"
+                Click="BackButton_Click" 
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Bottom" 
+                Margin="0,0,0,20"/>
+    </Grid>
+</Window>
