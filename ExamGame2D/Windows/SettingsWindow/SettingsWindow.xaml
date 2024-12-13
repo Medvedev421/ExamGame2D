@@ -8,7 +8,7 @@
         WindowStartupLocation="CenterScreen">
     
     <Window.Resources>
-        <ResourceDictionary Source="SettingsWindowStyle.xaml" /> 
+        <ResourceDictionary Source="SettingsWindowStyles.xaml" /> 
     </Window.Resources>
     
     <Window.Background>

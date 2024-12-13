@@ -1,0 +1,18 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <Style x:Key="PlatformStyle" TargetType="{x:Type Rectangle}">
+        <Setter Property="Fill" Value="#FF3E8E41"/> <!-- Зеленый цвет для платформ -->
+        <Setter Property="Width" Value="50"/>
+        <Setter Property="Height" Value="10"/>
+        <Setter Property="Opacity" Value="1"/> <!-- Непрозрачность платформ -->
+    </Style>
+
+    <Style x:Key="MovingPlatformStyle" TargetType="{x:Type Rectangle}">
+        <Setter Property="Fill" Value="#FF8E3E3E"/> <!-- Красный цвет для движущихся платформ -->
+        <Setter Property="Width" Value="50"/>
+        <Setter Property="Height" Value="10"/>
+        <Setter Property="Opacity" Value="1"/> <!-- Непрозрачность движущихся платформ -->
+    </Style>
+
+</ResourceDictionary>
